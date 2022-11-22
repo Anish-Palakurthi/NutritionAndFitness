@@ -1,5 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import { StyleSheet, Text, View } from 'react-native';
+//import { Text, view } from 'react - native';
 
 function App() {
   return (
@@ -8,6 +11,9 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <p>
+          Hello World
         </p>
         <a
           className="App-link"
